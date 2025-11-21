@@ -12,7 +12,7 @@ st.set_page_config(
 )
 
 # --- CONSTANTES & STYLE ---
-FILE_PATH = r"Z:\RATP\trafic-annuel-entrant-par-station-du-reseau-ferre-2021.csv"
+FILE_PATH = r"trafic-annuel-entrant-par-station-du-reseau-ferre-2021.csv"
 
 # Palette RATP Officielle (Jade, Bleu, etc.)
 RATP_COLORS = {
@@ -202,4 +202,5 @@ def main():
         st.dataframe(df_viz.sort_values('Trafic', ascending=False), use_container_width=True)
 
 if __name__ == "__main__":
+
     main()
