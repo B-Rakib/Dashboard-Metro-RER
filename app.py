@@ -12,7 +12,8 @@ st.set_page_config(
 )
 
 # --- CONSTANTES & STYLE ---
-FILE_PATH = r"trafic-annuel-entrant-par-station-du-reseau-ferre-2021.csv"
+FILE_PATH = "trafic-annuel-entrant-par-station-du-reseau-ferre-2021.csv"
+
 
 # Palette RATP Officielle (Jade, Bleu, etc.)
 RATP_COLORS = {
@@ -204,4 +205,5 @@ def main():
 if __name__ == "__main__":
 
     main()
+
 
